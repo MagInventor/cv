@@ -1,6 +1,7 @@
 import Header from './header/Header.component';
 import Aside from './aside/Aside.component';
 import Main from './main/Main.component';
+import Footer from './footer/Footer.component';
 
 class Wrapper {
   constructor() {
@@ -9,10 +10,11 @@ class Wrapper {
     this.header = new Header().addHeader();
     this.aside = new Aside().addAside();
     this.main = new Main().addMain();
+    this.footer = new Footer().addFooter();
   }
 
   render() {
-    this.elements = [this.header, this.aside, this.main];
+    this.elements = [this.header, this.aside, this.main, this.footer];
 
     document.body.prepend(this.wrapper);
     this.wrapper.append(...this.elements);
