@@ -17,12 +17,17 @@ body {
 }
 
 .container {
-	min-width: 280px;
-	padding: 0 20px;
+  min-width: 280px;
+  padding: 0 20px;
 }
 
 h1 {
+  height: 0;
+  visibility: hidden;
+}
 
+h2 {
+  
 }
 
 p {
@@ -42,7 +47,7 @@ p {
 }
 
 .field-header {
-	grid-area: header;
+  grid-area: header;
 }
 
 .field-aside {
