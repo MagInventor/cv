@@ -16,9 +16,11 @@ class Page {
   }
 
   createMain() {
-    document.querySelector('.about .container p').innerText = this.person.about;
+  	document.querySelector('.about .container h3').innerText = this.person.about[0];
+  	this.about = this.person.about.filter((el,i) => i).join('');
+    document.querySelector('.about .container p').innerHTML = this.about;
+
     document.querySelector('.education .container h3').innerText = this.person.education[0];
-     
     this.education = this.person.education.filter((el,i) => i).map(el => `<li>${el}</li>`).join('');
     this.education = `<ul>${this.education}</ul>`;
     document.querySelector('.education .container p').innerHTML = this.education;
