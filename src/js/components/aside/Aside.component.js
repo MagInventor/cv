@@ -1,4 +1,4 @@
-// import Photo from '../../../../assets/images/photo.jpg';
+// import Photo from '../../../assets/images/photo.jpg';
 
 class Aside {
   constructor() {

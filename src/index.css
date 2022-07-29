@@ -1,3 +1,7 @@
+@import './styles/fonts.css';
+@import './styles/style_768.css';
+@import './styles/style_980.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +18,7 @@ a {
 body {
   width:  100%;
   height: 100%;
+  font-family: 'Lato-Regular', Tahoma, Verdana, sans-serif;
 }
 
 .container {
@@ -26,20 +31,33 @@ h1 {
   visibility: hidden;
 }
 
-h2 {
-  
+
+h3 {
+
 }
+
 
 p {
 
 }
 
+img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
 /**              Wrapper              */
 
 .wrapper {
   width: 100%;
   margin: 0 auto;
-  grid-template: 200px auto auto 0/ 250px auto;
+  display: grid;
+  grid-template: auto auto auto 0 / 250px auto;
+  grid-template-areas:
+    "header"
+    "aside"
+    "main"
+    "footer";
 }
 
 .field {
@@ -63,6 +81,85 @@ p {
 }
 
 /**              Header               */
+
+header {
+  width: 100%;
+  height: 84px;
+}
+
+h2 {
+  font-size: 30px;
+  color: ##242424;
+}
+
+p.position {
+  color: #777;
+}
 /**              Aside                */
+
+.contacts {
+  padding: 10px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts li {
+  margin: 20px 0;
+}
+
+h4 {
+  color: #40958e;
+}
+
+.contacts p {
+  color: #333;
+}
+
+.skills {
+  padding: 25px 0;
+  background: #f3f3f3;
+  font-weight: bold;
+  color: #333;
+}
+
+.skills li {
+  margin-bottom: 3px;
+}
+
 /**               Main                */
+
+main {
+  margin: 10px 0;
+}
+
+main p {
+  margin-bottom: 10px;
+  font-family: 'IbarraRealNova', 'Georgia', 'Times New Roman', serif;
+}
+
+h3 {
+  width: 150px;
+  margin: 20px 0;
+  padding: 5px 10px;
+  background: #40958e;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3px
+}
+
+.education ul li:first-child {
+  color: #484848;
+  font-family: 'Lato-Regular', Tahoma, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.education ul li {
+  color: #555;
+  padding-bottom: 3px;
+}
+
 /**              Footer               */
