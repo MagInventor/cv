@@ -4,4 +4,4 @@ import Page from './js/page/Page';
 
 wrapper.render();
 const page = new Page();
-page.make();
+page.render();

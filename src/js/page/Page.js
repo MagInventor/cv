@@ -31,7 +31,7 @@ class Page {
     document.querySelector('.experience .container p').innerHTML = this.experience;
   }
 
-  make() {
+  render() {
     this.createMain();
     this.createHeader();
     return this;

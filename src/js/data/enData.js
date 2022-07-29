@@ -1,10 +1,10 @@
 const enData = {
-  name: 'Full Name',
+  name: 'Paul Lushko',
   position: 'Frontend Developer',
-  address: 'Planet, Earth',
-  phone: '01234567890',
-  email: 'programmer@gmail.com',
-  website: 'website.com',
+  address: ['Addess', 'Poland, Poznan'],
+  phone: ['Phone', '01234567890'],
+  email: ['Email', 'programmer@gmail.com'],
+  website: ['Website', 'website.com'],
   about: ['About me',
   'My goal is to become a professional in the field of front-end development. ',
   'I like creating applications for browsers, developing and implementing design layouts, ',
@@ -20,9 +20,9 @@ const enData = {
   ['I also have experience in creating simple single page applications (SPA) and experience ',
   'in using REST API. My application sends a request to the server and receives a response. ',
   'The resulting data is then displayed on the page.']],
-  skills: ['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'Jest', 'ReactJS', 
-  'jQuery', 'BEM', 'Git', 'UI&UX', 'Creativity', 'Web-design'],
-  hobby: ['travel', 'cycling', 'workout', 'films', 'music'],
+  skills: [['Skills'],['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'Jest', 'ReactJS', 
+  'jQuery', 'BEM', 'Git', 'UI&UX', 'Creativity', 'Web-design']],
+  hobby: ['Hobby', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
 }
 
 export default enData;
