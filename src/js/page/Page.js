@@ -12,7 +12,10 @@ class Page {
   }
 
   createAside() {
-
+    console.log(this.person.contacts);
+    this.contacts = this.person.contacts.map(el => `<li><h4>${el[0]}</h4><p>${el[1]}</p></li>`);
+    this.contacts = `<ul>${this.contacts.join('')}</ul>`
+    document.querySelector('.contacts .container').innerHTML = this.contacts;
   }
 
   createMain() {
@@ -32,8 +35,9 @@ class Page {
   }
 
   render() {
-    this.createMain();
     this.createHeader();
+    this.createAside();
+    this.createMain();
     return this;
   }
 }

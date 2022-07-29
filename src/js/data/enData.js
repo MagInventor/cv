@@ -1,6 +1,8 @@
 const enData = {
   name: 'Paul Lushko',
   position: 'Frontend Developer',
+  contacts: [['Addess', 'Poland, Poznan'], ['Phone', '01234567890'],
+  ['Email', 'programmer@gmail.com'], ['Website', 'website.com']],
   address: ['Addess', 'Poland, Poznan'],
   phone: ['Phone', '01234567890'],
   email: ['Email', 'programmer@gmail.com'],

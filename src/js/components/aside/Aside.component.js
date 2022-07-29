@@ -4,14 +4,10 @@ class Aside {
   constructor() {
     this.aside = document.createElement('aside');
     this.aside.classList.add('field', 'field-aside');
-    this.container = document.createElement('div');
-    this.container.classList.add('aside-container','container');
     this.photo = document.createElement('div');
     this.photo.classList.add('photo');
-    this.contacts = document.createElement('div');
-    this.contacts.classList.add('contacts');
-    this.skills = document.createElement('div');
-    this.skills.classList.add('skills');
+    this.contacts = this.createSection('contacts');
+    this.skills = this.createSection('skills');
   }
 
   addPhoto() {
@@ -22,9 +18,23 @@ class Aside {
     return this;
   }
 
+  createSection(nameSection) {
+    this.section = document.createElement('div');
+    this.section.classList.add(nameSection);
+    this.container = document.createElement('div');
+    this.container.classList.add('aside-container', 'container');
+
+    // this.titleSection = document.createElement('h3')
+    // this.contentSection = document.createElement('p');
+
+    // this.container.append(...[this.titleSection, this.contentSection]);
+    this.section.append(this.container);
+    return this.section;
+  }
+
   addAside() {
     // this.addPhoto();
-    this.aside.append(this.container);
+    this.aside.append(...[this.photo, this.contacts, this.skills]);
     return this.aside;
   }
 }

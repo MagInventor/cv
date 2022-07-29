@@ -2,10 +2,7 @@ class Person {
   constructor(data) {
     this.name = data.name || 'Name Fullname';
     this.position = data.position || 'Worker';
-    this.address = data.address || 'Earth';
-    this.phone = data.phone || '0123456790';
-    this.email = data.email || 'mail@mail.com';
-    this.website = data.website || 'website.com';
+    this.contacts = data.contacts || 'Missing'
     this.about = data.about || 'Missing';
     this.education = data.education || 'Missing';
     this.experience = data.experience || 'Missing';
