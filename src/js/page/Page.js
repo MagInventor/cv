@@ -16,8 +16,8 @@ class Page {
   }
 
   createMain() {
-  	document.querySelector('.about .container h3').innerText = this.person.about[0];
-  	this.about = this.person.about.filter((el,i) => i).join('');
+    document.querySelector('.about .container h3').innerText = this.person.about[0];
+    this.about = this.person.about.filter((el,i) => i).join('');
     document.querySelector('.about .container p').innerHTML = this.about;
 
     document.querySelector('.education .container h3').innerText = this.person.education[0];
@@ -25,7 +25,10 @@ class Page {
     this.education = `<ul>${this.education}</ul>`;
     document.querySelector('.education .container p').innerHTML = this.education;
 
-    // document.querySelector('.experience .container p').innerText = this.person.experience;
+    document.querySelector('.experience .container h3').innerText = this.person.experience[0];
+    this.experience = this.person.experience.filter((el,i) => i);
+    this.experience = this.experience.map(el => `${el.join('')}<br><br>`).join('');
+    document.querySelector('.experience .container p').innerHTML = this.experience;
   }
 
   make() {
