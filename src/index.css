@@ -21,6 +21,14 @@ body {
   font-family: 'Lato-Regular', Tahoma, Verdana, sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: transparent;
+}
+
 .container {
   min-width: 280px;
   padding: 0 20px;
@@ -31,28 +39,14 @@ h1 {
   visibility: hidden;
 }
 
-
-h3 {
-
-}
-
-
-p {
-
-}
-
-img {
-  width: 100%;
-  max-width: 320px;
-  height: auto;
-}
 /**              Wrapper              */
 
 .wrapper {
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template: auto auto auto 0 / 250px auto;
+  grid-template: auto auto auto 0 / 320px;
+  justify-content: center;
   grid-template-areas:
     "header"
     "aside"
@@ -85,17 +79,38 @@ img {
 header {
   width: 100%;
   height: 84px;
+  padding: 10px 0;
+  display: grid;
+  justify-content: center;
+}
+
+header .container {
+  display: grid;
+  justify-content: center;
 }
 
 h2 {
   font-size: 30px;
-  color: ##242424;
+  color: #242424;
 }
 
 p.position {
   color: #777;
 }
+
 /**              Aside                */
+
+aside {
+  display: grid;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin-top: 10px;
+}
 
 .contacts {
   padding: 10px 0;
@@ -109,6 +124,7 @@ p.position {
 }
 
 h4 {
+  margin-bottom: 5px;
   color: #40958e;
 }
 
@@ -131,6 +147,7 @@ h4 {
 
 main {
   margin: 10px 0;
+  text-align: justify;
 }
 
 main p {
@@ -163,3 +180,7 @@ h3 {
 }
 
 /**              Footer               */
+
+footer {
+  height: 0;
+}
