@@ -7,8 +7,8 @@ class Person {
     this.email = data.email || 'mail@mail.com';
     this.website = data.website || 'website.com';
     this.about = data.about || 'Missing';
+    this.education = data.education || 'Missing';
     this.experience = data.experience || 'Missing';
-    this.education = this.education || 'None';
     this.skills = data.skills || 'None';
     this.hobby = data.hobby || 'None';
   }

@@ -5,32 +5,16 @@ const enData = {
   phone: '01234567890',
   email: 'programmer@gmail.com',
   website: 'website.com',
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type 
-  specimen book. It has survived not only five centuries, but also the leap into 
-  electronic typesetting, remaining essentially unchanged. It was popularised in 
-  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-  and more recently with desktop publishing software like Aldus PageMaker 
-  including versions of Lorem Ipsum.`,
-  experience: `Lorem Ipsum is simply dummy text of the printing and typesetting. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type 
-  specimen book. It has survived not only five centuries, but also the leap into 
-  electronic typesetting, remaining essentially unchanged. It was popularised in 
-  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-  and more recently with desktop publishing software like Aldus PageMaker 
-  including versions of Lorem Ipsum.`,
-  education: `Lorem Ipsum is simply dummy text of the printing and typesetting. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type 
-  specimen book. It has survived not only five centuries, but also the leap into 
-  electronic typesetting, remaining essentially unchanged. It was popularised in 
-  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-  and more recently with desktop publishing software like Aldus PageMaker 
-  including versions of Lorem Ipsum.`,
-  skills: ['HTML&CSS', 'JavaScript', 'ReactJS', 'jQuery', 'BEM', 'Git', 
-  'UI&UX', 'Creativity', 'Web-design'],
+  about: `My goal is to become a professional in the field of front-end development. 
+  I like creating applications for browsers, developing and implementing design layouts, 
+  creating user-friendly pages. I have math abilities. I like to solve various logical tasks. 
+  I am ready to work hard and develop my potential. I am ready for any difficulties and 
+  I am ready find any ways to solve them.  In addition to programming, I study English and 
+  in my free time I go in for sports.`,
+  education: ['Education', 'Belarusian National Technical University, Minsk', 'Manager-economist', '2015'],
+  experience: `I have experience creating a landing page.`,
+  skills: ['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'Jest', 'ReactJS', 
+  'jQuery', 'BEM', 'Git', 'UI&UX', 'Creativity', 'Web-design'],
   hobby: ['travel', 'cycling', 'workout', 'films', 'music'],
 }
 
