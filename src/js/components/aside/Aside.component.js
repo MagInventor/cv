@@ -1,4 +1,4 @@
-// import Photo from '../../../assets/images/photo.jpg';
+import Photo from '../../../assets/images/photo.jpg';
 
 class Aside {
   constructor() {
@@ -28,7 +28,7 @@ class Aside {
   }
 
   addAside() {
-    // this.addPhoto();
+    this.addPhoto();
     this.aside.append(...[this.photo, this.contacts, this.skills]);
     return this.aside;
   }
