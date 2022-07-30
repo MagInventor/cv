@@ -17,9 +17,16 @@ class AsideData {
     document.querySelector('.skills .aside-container ul').innerHTML = this.skills;
   }
 
+  addCompetence() {
+    document.querySelector('.competence .aside-container h2').innerText = this.person.competence[0];
+    this.competence = this.person.competence[1].map(el => `<li>${el}</li>`).join('');
+    document.querySelector('.competence .aside-container ul').innerHTML = this.competence;
+  }
+
   updateAside() {
     this.addContacts();
     this.addSkills();
+    this.addCompetence();
   }
 }
 

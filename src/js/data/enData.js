@@ -2,7 +2,7 @@ const enData = {
   name: 'Paul Lushko',
   position: 'Frontend Developer',
   contacts: ['Contacts', ['Addess:', 'Poland, Poznan'], ['Phone:', '01234567890'],
-  ['Email:', 'programmer@gmail.com'], ['Website:', 'website.com']],
+  ['Email:', 'programmer@gmail.com']],
   about: ['About me',
   'My goal is to become a professional in the field of front-end development. ',
   'I like creating applications for browsers, developing and implementing design layouts, ',
@@ -20,6 +20,7 @@ const enData = {
   'The resulting data is then displayed on the page.']],
   skills: [['Skills'],['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'jQuery', 'BEM', 'Jest', 'Git',
   'Babel', 'ReactJS', 'UI&UX', 'REST API', 'Web-design']],
+  competence: [['Competence'], ['Touch typing', 'Photoshop', 'Figma']],
   hobby: ['Hobby', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
 }
 

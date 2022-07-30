@@ -8,6 +8,7 @@ class Aside {
     this.photo.classList.add('photo');
     this.contacts = this.createSection('contacts');
     this.skills = this.createSection('skills');
+    this.competence = this.createSection('competence');
   }
 
   addPhoto() {
@@ -34,7 +35,7 @@ class Aside {
 
   addAside() {
     this.addPhoto();
-    this.aside.append(...[this.photo, this.contacts, this.skills]);
+    this.aside.append(...[this.photo, this.contacts, this.skills, this.competence]);
     return this.aside;
   }
 }

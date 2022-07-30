@@ -53,10 +53,10 @@ h1 {
     "main"
     "footer";
 }
-
+/*
 .field {
   display: grid;
-}
+}*/
 
 .field-header {
   grid-area: header;
@@ -138,12 +138,14 @@ h3 {
   color: #333;
 }
 
-.skills {
+.skills,
+.competence {
   padding: 25px 0;
   text-align: right;
 }
 
-.skills li {
+.skills li,
+.competence li {
   margin-bottom: 3px;
   color: #333;
   font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
@@ -161,6 +163,10 @@ main p {
   margin-bottom: 10px;
   color: #222;
   font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+}
+
+section {
+  margin-bottom: 30px;
 }
 
 h2 {
