@@ -4,8 +4,8 @@ class HeaderData {
   }
 
   updateHeader() {
-    document.querySelector('h2').innerText = this.person.name;
-    document.querySelector('.position').innerText = this.person.position;
+    document.querySelector('.person-name').innerText = this.person.name;
+    document.querySelector('.person-position').innerText = this.person.position;
   }
 }
 

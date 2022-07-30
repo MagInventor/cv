@@ -24,7 +24,7 @@ class Aside {
     this.container = document.createElement('div');
     this.container.classList.add('aside-container', 'container');
 
-    this.titleSection = document.createElement('h3');
+    this.titleSection = document.createElement('h2');
     this.contentSection = document.createElement('ul');
 
     this.container.append(...[this.titleSection, this.contentSection]);   

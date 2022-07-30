@@ -5,9 +5,10 @@ class Header {
     this.container = document.createElement('div');
     this.container.classList.add('container');
     this.h1 = document.createElement('h1');
-    this.personName = document.createElement('h2');
+    this.personName = document.createElement('p');
+    this.personName.classList.add('person-name');
     this.personPosition = document.createElement('p');
-    this.personPosition.classList.add('position');
+    this.personPosition.classList.add('person-position');
   }
 
   createTitle() {
