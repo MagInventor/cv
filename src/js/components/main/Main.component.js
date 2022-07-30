@@ -13,7 +13,7 @@ class Main {
     this.container = document.createElement('div');
     this.container.classList.add('container');
 
-    this.titleSection = document.createElement('h3')
+    this.titleSection = document.createElement('h3');
     this.contentSection = document.createElement('p');
 
     this.container.append(...[this.titleSection, this.contentSection]);

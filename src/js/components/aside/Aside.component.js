@@ -23,6 +23,11 @@ class Aside {
     this.section.classList.add(nameSection);
     this.container = document.createElement('div');
     this.container.classList.add('aside-container', 'container');
+
+    this.titleSection = document.createElement('h3');
+    this.contentSection = document.createElement('ul');
+
+    this.container.append(...[this.titleSection, this.contentSection]);   
     this.section.append(this.container);
     return this.section;
   }
