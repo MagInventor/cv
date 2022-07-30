@@ -23,19 +23,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|mp3)$/i,
-        loader: 'file-loader',
-        options: {
-          name: '[path][name].[ext]',
-          context: ''
-        },
+        type: 'asset/resource',
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        loader: 'file-loader',
-        options: {
-          name: '[path][name].[ext]',
-          context: ''
-        },
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline',
       },
     ],
   },
