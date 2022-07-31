@@ -13,6 +13,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #444;
 }
 
 body {
@@ -53,10 +54,10 @@ h1 {
     "main"
     "footer";
 }
-/*
+
 .field {
-  display: grid;
-}*/
+  /*display: grid;*/
+}
 
 .field-header {
   grid-area: header;
@@ -102,7 +103,7 @@ p.person-position {
 
 aside {
   display: grid;
-  justify-content: center;
+  justify-content: right;
 }
 
 .photo {
@@ -110,7 +111,7 @@ aside {
   height: 320px;
 }
 
-img {
+.photo img {
   width: 100%;
   max-width: 320px;
   height: auto;
@@ -119,14 +120,21 @@ img {
 
 .contacts {
   padding: 10px 0;
-  font-weight: bold;
-  text-transform: uppercase;
   text-align: right;
 }
 
-.contacts li {
-  margin: 20px 0;
-  text-align: center;
+.contacts a {
+  height: 30px;
+  font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+  display: grid;
+  grid-template-columns: auto 25px;
+  justify-items: end;
+  align-items: center;
+}
+
+.contacts span {
+  width: 20px;
+  height: 20px;
 }
 
 h3 {
