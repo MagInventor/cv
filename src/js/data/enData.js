@@ -30,7 +30,7 @@ const enData = {
   competence: ['Competences', ['Touch typing', 'Photoshop', 'Figma']],
   languages: ['Languages',['Belarusian (native)', 'Russian (native)', 'Polish (A2-B1)', 
   'Germany (A1)', 'English (B1)']],
-  hobby: ['Hobby', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
+  interests: ['Interests', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
 }
 
 export default enData;

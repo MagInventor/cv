@@ -29,7 +29,7 @@ const plData = {
   competence: ['Kompetencje', ['Pisanie na ślepo', 'Photoshop', 'Figma']],
   languages: ['Języki',['Białoruski (rodzinny)', 'Rosyjski (rodzinny)', 'Polski (A2-B1)', 
   'Niemiecki (A1)', 'Angielski (B1)']],
-  hobby: ['Zainteresowania', ['Podróże', 'Rower', 'Sport', 'Filmy', 'Muzyka']],
+  interests: ['Zainteresowania', ['Podróże', 'Rower', 'Sport', 'Filmy', 'Muzyka']],
 }
 
 export default plData;

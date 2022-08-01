@@ -5,6 +5,7 @@ class Main {
     this.about = this.createSection('about');
     this.education = this.createSection('education');
     this.experience = this.createSection('experience');
+    this.interests = this.createSection('interests');
   }
 
   createSection(nameSection) {
@@ -22,7 +23,7 @@ class Main {
   }
 
   addMain() {
-    this.main.append(...[this.about, this.education, this.experience]);
+    this.main.append(...[this.about, this.education, this.experience, this.interests]);
     return this.main;
   }
 }

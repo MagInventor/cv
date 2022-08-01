@@ -1,8 +1,15 @@
+import Travel from '../../../assets/images/hobby/travel.png';
+import Cycling from '../../../assets/images/hobby/cycling.png';
+import Workout from '../../../assets/images/hobby/workout.png';
+import Films from '../../../assets/images/hobby/films.png';
+import Music from '../../../assets/images/hobby/music.png';
+
 class MainData {
   constructor(person) {
     this.person = person;
     this.github = 'https://github.com/MagInventor?tab=repositories';
     this.code = 'https://www.codewars.com/users/StudentTraveler';
+    this.hobby = [Travel, Cycling, Workout, Films, Music];
   }
 
   addAbout() {
@@ -28,10 +35,22 @@ class MainData {
     document.querySelector('.experience .container p').innerHTML = this.experience;  
   }
 
+  addInterests() {
+    document.querySelector('.interests .container h2').innerText = this.person.interests[0];
+    this.interests = this.person.interests[1].map((el, i) => `<li>
+      <span><img src="${this.hobby[i]}" width="30px" height="30px"></span>
+      <p>${el}</p></li>`).join('');
+  
+    this.interests = `<ul class="hobby">${this.interests}</ul>`;
+    console.log(this.interests)
+    document.querySelector('.interests .container p').innerHTML = this.interests;
+  }
+
   updateMain() {
     this.addAbout();
     this.addEducation();
     this.addExperience();
+    this.addInterests();
   }
 }
 
