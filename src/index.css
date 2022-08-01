@@ -43,7 +43,7 @@ h1 {
 /**              Wrapper              */
 
 .wrapper {
-  width: 100%;
+  width: 320px;
   margin: 0 auto;
   display: grid;
   grid-template: auto auto auto 0 / 320px;
@@ -53,6 +53,9 @@ h1 {
     "aside"
     "main"
     "footer";
+  -webkit-box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
+  -moz-box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
+  box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
 }
 
 .field {
@@ -79,8 +82,8 @@ h1 {
 
 header {
   width: 100%;
-  height: 84px;
-  padding: 10px 0;
+  height: 90px;
+  padding: 0 0 10px 0;
   background: #404040;
   display: grid;
   justify-content: center;
@@ -93,41 +96,39 @@ header .container {
 
 p.person-name {
   color: #fff;
-  font-size: 56px;
+  font-size: 32px;
 }
 
 p.person-position {
-  padding-left: 3px;
+  padding-left: 2px;
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 /**              Aside                */
 
 aside {
+  margin-bottom: 20px;
   display: grid;
   justify-content: right;
 }
 
 .photo {
   width: 320px;
-  /*height: 320px;*/
-  /*background: #404040; /* 807267*/
   padding: 40px 0;
   display: grid;
   justify-items: center;
-  /*align-items: center;*/
 }
 
 .photo img {
   width: 58%;
   max-width: 320px;
   height: auto;
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .contacts {
-  margin: 40px 0 10px 0;
+  margin: 20px 0 10px 0;
   text-align: right;
 }
 

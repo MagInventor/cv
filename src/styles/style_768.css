@@ -1,7 +1,8 @@
 @media (min-width: 768px) {
   body .wrapper {
+    width: 100%;
     display: grid;
-    grid-template: auto auto 0 / 320px auto;
+    grid-template: 175px auto 0 / 320px auto;
     justify-content: center;
     grid-template-areas:
       "aside header"
@@ -12,10 +13,26 @@
   .wrapper header {
     height: 120px;
     align-content: center;
+    display: grid;
+    justify-content: left;
   }
 
   header .container {
     align-items: center;
+  }
+
+  header .container p.person-name {
+    margin-left: 15px;
+    font-size: 44px;
+  }
+
+  header .container p.person-position {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+  .wrapper aside {
+    margin-bottom: 40px;
   }
 
   .wrapper main {
