@@ -16,7 +16,7 @@ const enData = {
   ['I have experience creating a landing page, cross-browser & adaptive website coding ',
   'from PSD to HTML. I have the skills of binding to the user interface of scripts that provide ',
   'visualization and animation of the site pages.'],
-  ['  In my projects, I used the module builder Webpack and the code analyzer ESLint. ',
+  ['In my projects, I used the module builder Webpack and the code analyzer ESLint. ',
   'Webpack allowed me to collect modules into one bundle and accelerated the process of ',
   'developing web applications. ESLint allowed to analyze the quality of the written code. ',
   'To test the code, I used Jest tests that allowed me to check the correct operation ',
@@ -27,7 +27,7 @@ const enData = {
   ['Examples of my works:']],
   skills: [['Skills'],['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'jQuery', 'BEM', 'Jest', 'Git',
   'Babel', 'ReactJS', 'UI&UX', 'REST API', 'Web-design']],
-  competence: [['Competence'], ['Touch typing', 'Photoshop', 'Figma']],
+  competence: [['Competences'], ['Touch typing', 'Photoshop', 'Figma']],
   hobby: ['Hobby', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
 }
 

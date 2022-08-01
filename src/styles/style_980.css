@@ -6,6 +6,8 @@
   body .wrapper {
     width: 980px;
     margin: 40px auto;
+    -webkit-box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
+    -moz-box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
     box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
   }
 }

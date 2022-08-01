@@ -111,14 +111,19 @@ aside {
 
 .photo {
   width: 320px;
-  height: 320px;
+  /*height: 320px;*/
+  /*background: #404040; /* 807267*/
+  padding: 40px 0;
+  display: grid;
+  justify-items: center;
+  /*align-items: center;*/
 }
 
 .photo img {
-  width: 100%;
+  width: 58%;
   max-width: 320px;
   height: auto;
-  /*border-radius: 50px;*/
+  border-radius: 20px;
 }
 
 .contacts {
