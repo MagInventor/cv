@@ -24,22 +24,26 @@ class AsideData {
     document.querySelector('.contacts .aside-container ul').innerHTML = this.contacts;
   }
 
-  addSkills() {
-    document.querySelector('.skills .aside-container h2').innerText = this.person.skills[0];
-    this.skills = this.person.skills[1].map(el => `<li>${el}</li>`).join('');
-    document.querySelector('.skills .aside-container ul').innerHTML = this.skills;
-  }
+  addRow(word) {
+    this.word = word;
+    this.personData = [];
 
-  addCompetence() {
-    document.querySelector('.competence .aside-container h2').innerText = this.person.competence[0];
-    this.competence = this.person.competence[1].map(el => `<li>${el}</li>`).join('');
-    document.querySelector('.competence .aside-container ul').innerHTML = this.competence;
+    if (this.person.hasOwnProperty(this.word)) {
+      for (let key in this.person) {
+        if (key == this.word) this.personData = this.person[key]
+      }
+    }
+
+    document.querySelector(`.${this.word} .aside-container h2`).innerText = this.personData[0];
+    this.data = this.personData[1].map(el => `<li>${el}</li>`).join('');
+    document.querySelector(`.${this.word} .aside-container ul`).innerHTML = this.data;
   }
 
   updateAside() {
     this.addContacts();
-    this.addSkills();
-    this.addCompetence();
+    this.addRow('skills');
+    this.addRow('competence');
+    this.addRow('languages');   
   }
 }
 

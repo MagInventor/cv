@@ -9,6 +9,7 @@ class Aside {
     this.contacts = this.createSection('contacts');
     this.skills = this.createSection('skills');
     this.competence = this.createSection('competence');
+    this.languages = this.createSection('languages');
   }
 
   addPhoto() {
@@ -35,7 +36,7 @@ class Aside {
 
   addAside() {
     this.addPhoto();
-    this.aside.append(...[this.photo, this.contacts, this.skills, this.competence]);
+    this.aside.append(...[this.photo, this.contacts, this.skills, this.competence, this.languages]);
     return this.aside;
   }
 }

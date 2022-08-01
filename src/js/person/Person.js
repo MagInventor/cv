@@ -8,6 +8,7 @@ class Person {
     this.experience = data.experience || 'Missing';
     this.skills = data.skills || 'None';
     this.competence = data.competence || 'None';
+    this.languages = data.languages || 'None';
     this.hobby = data.hobby || 'None';
   }
 }

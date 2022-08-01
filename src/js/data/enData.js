@@ -25,9 +25,11 @@ const enData = {
   'in using REST API. My application sends a request to the server and receives a response. ',
   'The resulting data is then displayed on the page.'],
   ['Examples of my works:']],
-  skills: [['Skills'],['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'jQuery', 'BEM', 'Jest', 'Git',
+  skills: ['Skills',['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'jQuery', 'BEM', 'Jest', 'Git',
   'Babel', 'ReactJS', 'UI&UX', 'REST API', 'Web-design']],
-  competence: [['Competences'], ['Touch typing', 'Photoshop', 'Figma']],
+  competence: ['Competences', ['Touch typing', 'Photoshop', 'Figma']],
+  languages: ['Languages',['Belarusian (native)', 'Russian (native)', 'Polish (A2-B1)', 
+  'Germany (A1)', 'English (B1)']],
   hobby: ['Hobby', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
 }
 

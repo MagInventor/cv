@@ -24,9 +24,11 @@ const plData = {
   'doświadczenie w korzystaniu z REST API. Moja aplikacja wysyła żądanie do serwera i otrzymuje ',
   'odpowiedź. Otrzymane dane są następnie wyświetlane na stronach.'],
   ['Przykład moich aplikacji:']],
-  skills: [['Umiejętności'],['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'jQuery', 'BEM', 'Jest', 'Git',
+  skills: ['Umiejętności',['HTML&CSS', 'JavaScript', 'Webpack', 'ESLint', 'jQuery', 'BEM', 'Jest', 'Git',
   'Babel', 'ReactJS', 'UI&UX', 'REST API', 'Web-design']],
-  competence: [['Kompetencje'], ['Pisanie na ślepo', 'Photoshop', 'Figma']],
+  competence: ['Kompetencje', ['Pisanie na ślepo', 'Photoshop', 'Figma']],
+  languages: ['Języki',['Białoruski (rodzinny)', 'Rosyjski (rodzinny)', 'Polski (A2-B1)', 
+  'Niemiecki (A1)', 'Angielski (B1)']],
   hobby: ['Zainteresowania', ['Podróże', 'Rower', 'Sport', 'Filmy', 'Muzyka']],
 }
 
