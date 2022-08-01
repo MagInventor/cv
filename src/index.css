@@ -210,6 +210,22 @@ h2 {
   padding-bottom: 3px;
 }
 
+.examples {
+  margin-left: 3px;
+  padding: 5px 10px;
+  text-align: center;
+  line-height: 1.8;
+  color: #6ac6ba;
+  border: 1px solid #6ac6ba;
+  border-radius: 3px;
+  cursor: pointer;
+} 
+
+.examples:hover {
+  color: #fff;
+  background: #6ac6ba;
+}
+
 /**              Footer               */
 
 footer {

@@ -1,6 +1,8 @@
 class MainData {
   constructor(person) {
     this.person = person;
+    this.github = 'https://github.com/MagInventor?tab=repositories';
+    this.code = 'https://www.codewars.com/users/StudentTraveler';
   }
 
   addAbout() {
@@ -20,6 +22,9 @@ class MainData {
     document.querySelector('.experience .container h2').innerText = this.person.experience[0];
     this.experience = this.person.experience.filter((el,i) => i);
     this.experience = this.experience.map(el => `${el.join('')}<br><br>`).join('');
+
+    this.experience += `<a href="${this.github}" target="_blank" class="examples">GitHub</a>`;
+    this.experience +=`<a href="${this.code}" target="_blank" class="examples">Codewars</a>`;
     document.querySelector('.experience .container p').innerHTML = this.experience;  
   }
 
