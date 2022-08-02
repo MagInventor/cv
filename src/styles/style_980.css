@@ -1,0 +1,17 @@
+@media (min-width: 980px) {
+  body .container {
+    max-width: 650px;
+  }
+
+  body .wrapper {
+    width: 980px;
+    margin: 40px auto;
+    -webkit-box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
+    -moz-box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
+    box-shadow: 0 0 5px 4px rgb(122 122 122 / 20%);
+  }
+
+  .interests .hobby {
+    grid-template-columns: repeat(5, 100px);
+  }
+}
