@@ -39,11 +39,24 @@ class AsideData {
     document.querySelector(`.${this.word} .aside-container ul`).innerHTML = this.data;
   }
 
+  addDropdown() {
+    this.dropdown = `<div class="dropdown">
+      <span>${this.person.choice[1]}</span>
+        <select id="dd">
+          <option value="EN">EN</option>
+          <option value="PL">PL</option>
+          <option value="RU">RU</option>
+        </select>
+      </div>`;
+    document.querySelector('.choice .aside-container ').innerHTML = this.dropdown;
+  }
+
   updateAside() {
     this.addContacts();
     this.addRow('skills');
     this.addRow('competence');
-    this.addRow('languages');   
+    this.addRow('languages');
+    this.addDropdown();
   }
 }
 

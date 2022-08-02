@@ -10,6 +10,7 @@ class Person {
     this.competence = data.competence || 'None';
     this.languages = data.languages || 'None';
     this.interests = data.interests || 'None';
+    this.choice = data.choice || 'None';
   }
 }
 

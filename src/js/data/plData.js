@@ -30,6 +30,7 @@ const plData = {
   languages: ['Języki',['Białoruski (rodzinny)', 'Rosyjski (rodzinny)', 'Polski (A2-B1)', 
   'Niemiecki (A1)', 'Angielski (B1)']],
   interests: ['Zainteresowania', ['Podróże', 'Rower', 'Sport', 'Filmy', 'Muzyka']],
+  choice: ['Choise', 'Obecny język'],
 }
 
 export default plData;

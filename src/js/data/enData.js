@@ -31,6 +31,7 @@ const enData = {
   languages: ['Languages',['Belarusian (native)', 'Russian (native)', 'Polish (A2-B1)', 
   'Germany (A1)', 'English (B1)']],
   interests: ['Interests', ['Travel', 'Cycling', 'Workout', 'Films', 'Music']],
+  choice: ['Choise', 'Current language'],
 }
 
 export default enData;

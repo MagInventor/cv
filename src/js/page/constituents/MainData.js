@@ -31,7 +31,7 @@ class MainData {
     this.experience = this.experience.map(el => `${el.join('')}<br><br>`).join('');
 
     this.experience += `<a href="${this.github}" target="_blank" class="examples">GitHub</a>`;
-    this.experience +=`<a href="${this.code}" target="_blank" class="examples">Codewars</a>`;
+    this.experience += `<a href="${this.code}" target="_blank" class="examples">Codewars</a>`;
     document.querySelector('.experience .container p').innerHTML = this.experience;  
   }
 
@@ -42,7 +42,6 @@ class MainData {
       <p>${el}</p></li>`).join('');
   
     this.interests = `<ul class="hobby">${this.interests}</ul>`;
-    console.log(this.interests)
     document.querySelector('.interests .container p').innerHTML = this.interests;
   }
 
