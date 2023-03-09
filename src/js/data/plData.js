@@ -1,7 +1,7 @@
 const plData = {
   name: 'Paweł Łuszko',
   position: 'Programista Frontend',
-  contacts: ['Dane osobowe', ['address', 'Polska, Poznań'], ['email', 'pauljobweb@gmail.com'],
+  contacts: ['Dane osobowe', ['address', 'Polska, Wrocław'], ['email', 'pauljobweb@gmail.com'],
   ['phone', '+48886709893']],
   about: ['O mnie',
   ' Moim celem jest zostać front-endowym profesjonalistą programistycznym. Lubię tworzyć ',
